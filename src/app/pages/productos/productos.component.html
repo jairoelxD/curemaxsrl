@@ -1,0 +1,25 @@
+<h1 >Lista de productos  <small>  Bs y $</small></h1>
+<hr>
+<div class="row">
+  <div class="col">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th>Precio Dolar </th>
+        </tr>
+      </thead>
+      <tbody>
+     
+        <tr *ngFor="let produc of listaprotuctos">          
+          <td>{{produc.nombre}}</td>
+          <td>{{ produc.precio | dolarABoliviano }}</td>  <!-- Aplicamos el pipe de conversión de dólares a bolivianos -->
+          <td>{{ produc.preciodol }}</td>
+        </tr>
+       
+      </tbody>
+    </table>
+  </div>
+</div>

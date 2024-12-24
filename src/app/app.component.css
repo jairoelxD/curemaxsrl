@@ -1,0 +1,28 @@
+.welcome-section {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-section .display-3 {
+    font-size: 4.5rem;
+}
+
+.welcome-section hr {
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+.welcome-section .btn-light {
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.welcome-section .btn-light:hover {
+    background-color: #007bff;
+    color: white;
+}

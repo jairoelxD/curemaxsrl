@@ -1,0 +1,25 @@
+/* Estilos del Navbar */
+.navbar {
+    background-color: #f8f9fa;  /* Fondo claro para el navbar */
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+    color: #007bff;  /* Todos los enlaces tendrán color azul */
+    transition: color 0.3s ease; /* Transición suave cuando se cambia el color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3;  /* Color más oscuro para el hover */
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #0056b3;  /* Color para el enlace activo */
+}

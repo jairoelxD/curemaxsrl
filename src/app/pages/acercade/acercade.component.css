@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #00aaff, #aaffff); /* Gradiente de celeste */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #005f80;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.contenido, .contacto {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    font-size: 24px;
+    color: #fff;
+    background-color: #005f80;
+    padding: 10px 20px;
+    border-radius: 10%;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+}
+
+ul li a:hover {
+    background-color: #00aaff;
+    color: #333;
+}
+.ubicacion1 {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ubicacion1 h2 {
+    font-size: 28px;
+    color: #005f80;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ubicacion1 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: left;
+}
+
+.mapa-container {
+    width: 50%; /* El mapa ocupa el 50% del contenedor */
+    height: 350px; /* Altura ajustada del mapa */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.mapa-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.texto-ubicacion {
+    width: 45%; /* La parte de texto ocupa el 45% del contenedor */
+    text-align: left;
+}
+.ubicacion2 {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ubicacion2 h2 {
+    font-size: 28px;
+    color: #005f80;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ubicacion2 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: left;
+}
+
+.mapa-container {
+    width: 50%; /* El mapa ocupa el 50% del contenedor */
+    height: 350px; /* Altura ajustada del mapa */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.mapa-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para la sección de productos */
+.productos {
+    max-width: 1300px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 50px; /* Espaciado entre los productos */
+    text-align: center;
+}
+
+.productos h2 {
+    grid-column: span 4; /* El título ocupa las 4 columnas */
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+/* Estilos para cada producto */
+.producto {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.producto img {
+    width: 90%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.producto .info {
+    margin-top: 10px;
+}
+
+.producto h3 {
+    font-size: 20px;
+    color: #000000;
+}
+
+.producto .precio {
+    font-size: 16px;
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}

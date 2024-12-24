@@ -1,0 +1,31 @@
+
+.footer {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Aumento el padding vertical */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: auto; /* Centra el contenido de izquierda a derecha */
+    margin-right: auto; /* Centra el contenido de izquierda a derecha */
+    width: 99%; /* Asegura que el fondo se extienda por todo el ancho */
+}
+
+.footer .container {
+    max-width: 1200px; /* Limita el ancho máximo del contenido para que no sea demasiado ancho */
+    padding-left: 20px; /* Añade un pequeño padding a la izquierda */
+    padding-right: 20px; /* Añade un pequeño padding a la derecha */
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.footer hr {
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.7);
+    width: 50%;
+    margin: 20px auto;
+}

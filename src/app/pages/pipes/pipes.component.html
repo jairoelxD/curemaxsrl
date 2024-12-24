@@ -1,0 +1,42 @@
+<h1>Pipes <small>Angular</small></h1>
+<hr>
+<div class="row">
+  <div class="col">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th>Variable</th>
+          <th>Pipe</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ nombre }}</td>
+          <td>uppercase</td>
+          <td>{{ nombre | uppercase }}</td>
+        </tr>
+        <tr>
+          <td>{{ porcentaje }}</td>
+          <td>percent</td>
+          <td>{{ porcentaje | percent }}</td>
+        </tr>
+        <tr>
+          <td>{{ fecha }}</td>
+          <td>date</td>
+          <td>{{ fecha | date }}</td>
+        </tr>
+        <tr>
+          <td>{{ precioDolar }}</td>
+          <td>dolarABoliviano</td>
+          <td>{{ precioDolar | dolarABoliviano }}</td>  <!-- Aplicamos el pipe de conversión de dólares a bolivianos -->
+        </tr>
+        <tr>
+          <td>{{ 50 }}</td>
+          <td>dolarABoliviano</td>
+          <td>{{ 50 | dolarABoliviano }}</td>  <!-- Otro ejemplo de uso -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
